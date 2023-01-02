@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*------NAV BAR------*/
+.nav-back{
+    background-image: linear-gradient(to right, rgb(28, 0, 105), rgb(94, 0, 182));
+    padding: 20px;
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: +3;
+    top: 0;
+}
+.navbar{
+    width: 75%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-right: 65px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 40px;
+}
+.navbar a:hover{
+    color: white;
+}
+.content{
+    padding-top: 70px;
+    padding-right: 50px;
+    font-size: 25px;
+}
+
+
+
+
+/*------BASIC INTRODUCTION------*/
+.me{
+    padding-top: 40px;
+    padding-left: 290px;
+    display: flex;
+    background-image: linear-gradient(rgb(164, 144, 253), rgb(196, 207, 255));
+}
+.name{
+    font-size: 60px;
+    color: rgb(94, 0, 182);
+}
+.position{
+    color: rgb(94, 0, 182);
+    padding-right: 15px;
+    font-weight: bold;
+}
+.hire-me{
+    padding-top: 30px;
+}
+.hire-me button{
+    background-color: rgb(94, 0, 182);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 6px 18px 9px;
+}
+
+
+
+
+/*------MY CLIENTS------*/
+.clients-back{
+    background-image: linear-gradient(to right, white 40%, rgb(158, 55, 255));
+    margin-bottom: 60px;
+}
+.clients{
+    width: 70%;
+    margin: auto;
+    padding: 60px 60px 60px 0;
+}
+.clients p{
+    font-weight: bold;
+}
+.clients-logo img{
+    padding-right: 15px;
+}
+
+
+
+
+/*------MY SKILLS------*/
+.services{
+    width: 70%;
+    margin: auto;
+}
+.services h1{
+    font-weight: bold;
+    color: rgb(94, 0, 182);
+}
+.my-skills h1{
+    padding-bottom: 25px;
+}
+.stick-web1{
+    width: 255px;
+    height: 6px;
+    background-color: rgb(191, 123, 255);
+    margin: 18px 12px 0 70px;
+}
+.stick-web2{
+    background-color: rgb(94, 0, 182);
+    width: 233px;
+    height: 6px;
+    position: relative;
+    bottom: 19px;
+    left: 276.1px;
+}
+.stick-graphic1{
+    width: 255px;
+    height: 6px;
+    background-color: rgb(191, 123, 255);
+    margin: 18px 12px 0 107px;
+}
+.stick-graphic2{
+    background-color: rgb(94, 0, 182);
+    width: 218px;
+    height: 6px;
+    position: relative;
+    bottom: 20px;
+    left: 276px;
+}
+.stick-typing1{
+    width: 255px;
+    height: 6px;
+    background-color: rgb(191, 123, 255);
+    margin: 18px 12px 0 126px;
+}
+.stick-typing2{
+    background-color: rgb(94, 0, 182);
+    width: 175px;
+    height: 6px;
+    position: relative;
+    bottom: 19px;
+    left: 276px;
+}
+.stick-art1{
+    width: 255px;
+    height: 6px;
+    background-color: rgb(191, 123, 255);
+    margin: 18px 12px 0 116px;
+}
+.stick-art2{
+    background-color: rgb(94, 0, 182);
+    width: 136px;
+    height: 6px;
+    position: relative;
+    bottom: 20px;
+    left: 276px;
+}
+.skill{
+    display: flex;
+}
+.skill-name{
+    font-size: 25px;
+}
+.skill-percentage{
+    font-size: 25px;
+}
+
+
+
+
+/*------ABOUT ME------*/
+.chit-chat{
+    padding: 3px 0 0 30px;
+    text-align: justify;
+}
+.chit-chat h1{
+    color: rgb(94, 0, 182);
+    font-weight: bold;
+}
+.chit-chat button{
+    background-color: rgb(94, 0, 182);
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 0px 15px 4px;
+}
+
+
+
+
+/*------My Services------*/
+.card{
+    text-align: left;
+    margin-top: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card-all{
+    padding-top: 100px;
+    padding-left: 90px;
+    width: 70%;
+    margin: auto;
+}
+.card-all h1{
+    font-weight: bold;
+    color: rgb(94, 0, 182);
+    padding-right: 110px;
+    text-align: center;
+}
+.card-btn{
+    background-color: rgb(94, 0, 182);
+    color: white;
+    padding: 3px 10px 4px;
+    border-radius: 10px;
+}
+.card-title{
+    font-weight: bold;
+    color: rgb(94, 0, 182);
+    padding-bottom: 5px;
+}
+
+
+
+
+
+/*------PORTFOLIO------*/
+.portfolio{
+    text-align: center;
+}
+.portfolio h1{
+    font-weight: bold;
+    padding-top: 90px;
+    color: rgb(94, 0, 182);
+}
+.portfolio h2{
+    color: rgb(94, 0, 182);
+    padding-top: 20px;
+    font-weight: bold;
+    padding: 60px 0 20px;
+}
+.portfolio h3{
+    color: rgb(94, 0, 182);
+    padding: 20px 0 10px;
+}
+
+
+
+
+
+/*------WEB DEVELOPMENT------*/
+.vid-all{
+    padding: 30px;
+}
+.vid{
+    padding-right: 40px;
+}
+
+
+
+
+/*------GRAPHICS DESIGN------*/
+.folder{
+    margin-bottom: 100px;
+}
+.file{
+    margin-right: 100px;
+}
+
+
+
+/*------WHAT CLIENTS GET------*/
+.experience{
+    padding-top: 70px;
+    padding-right: 20px;
+    width: 69.4%;
+    margin: auto;
+}
+.why-me{
+    display: flex;
+}
+.exp-effect{
+    font-weight: bold;
+}
+.exp h1{
+    padding-top: 90px;
+    color: rgb(94, 0, 182);
+    font-weight: bold;
+}
+
+
+
+
+/*------3 SQUARE BOXES------*/
+.counting-back{
+    background-color: rgb(94, 0, 182);
+    padding: 70px;
+}
+.counting{
+    width: 70%;
+    margin-left: 420px;
+    display: flex;
+}
+.count-box{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    width: 170px;
+    height: 170px;
+    align-items: center;
+    text-align: center;
+    margin-right: 200px;
+}
+.count-box h2{
+    align-items: center;
+    padding-top: 40px;
+    color: rgb(94, 0, 182);
+}
+
+
+
+
+/*------REVIEWS------*/
+.review-title h1{
+    text-align: center;
+    color: rgb(94, 0, 182);
+    padding: 70px 0 20px;
+    font-weight: bold;
+}
+.reviews{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+.reviews-back{
+    background-image: linear-gradient(rgb(164, 144, 253), rgb(196, 207, 255));
+    height: 500px;
+}
+.reviews-info{
+    display: flex;
+    padding: 80px;
+}
+.reviews-img{
+    width: 600px;
+    padding-right: 50px;
+}
+.reviews-words{
+    width: 90%;
+    padding-left: 30px;
+}
+.reviews-words h2{
+    color: rgb(94, 0, 182);
+}
+.reviews-words div{
+    color: rgb(94, 0, 182);
+    font-weight: bold;
+    font-size: 50px;
+}
+.last-quot{
+    text-align: right;
+}
+
+
+
+
+/*------FOOTER------*/
+.foot-back{
+    background-image: linear-gradient(to right, rgba(10, 0, 39, 0.9), rgb(10, 0, 39, 0.9)), url("/Media/laptop-tea.jpg");
+    color: white;
+    line-height: 40px;
+    padding: 40px 30px 40px 0;
+}
+.foot-back h2{
+    color: rgb(164, 144, 253);
+}
+.foot-main{
+    width: 70%;
+    margin: auto;
+}
+.contact i{
+    padding-right: 10px;
+    color: rgb(164, 144, 253);
+}
+.message input{
+    margin-right: 20.6px;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+.message textarea{
+    margin-top: 29px;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+.message button{
+    background-color: rgb(164, 144, 253);
+    color: rgb(94, 0, 182);
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 10px;
+    padding: 0 12px;
+}
+.icons i{
+    color: white;
+    padding-right: 15px;
+}
+.icons{
+    padding-left: 40px;
+}
+.icons a :hover{
+    color: rgb(164, 144, 253);
+}
+.social h2{
+    color: rgb(164, 144, 253);
+    padding-left: 40px;
+}
+.social p{
+    padding-left: 40px;
+    line-height: 20px;
+    text-align: justify;
+}
+.copyright{
+    background-image: linear-gradient(to right, rgb(28, 0, 105), rgb(94, 0, 182));
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 3px;
+}
